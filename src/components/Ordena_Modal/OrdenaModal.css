@@ -1,0 +1,75 @@
+.ordena-button {
+  background-color: #ff0000;
+  color: white;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.ordena-button:hover {
+  background-color: #cc0000;
+}
+
+.modal-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.modal {
+  background-color: white;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+}
+
+.modal-title {
+  margin-bottom: 16px;
+}
+
+.flashy-button {
+  display: block;
+  background-color: #ff0000;
+  color: white;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-bottom: 8px;
+}
+
+.flashy-button:hover {
+  background-color: #cc0000;
+}
+
+.encuentranos {
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.close-button {
+  display: block;
+  background-color: white;
+  color: black;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.close-button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}

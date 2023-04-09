@@ -7,12 +7,14 @@ const ProductList = ({ products }) => {
     <div className="product-list">
       {products.map((product) => (
         <ProductCard
-          key={product.id}
           image={product.image}
+          tag1={product.tag}
+          tag2={product.tag}
           title={product.title}
           description={product.description}
           price={product.price}
-          tag={product.tag}
+          offerPrice={product.offerPrice}
+          key={product.id}
         />
       ))}
     </div>
